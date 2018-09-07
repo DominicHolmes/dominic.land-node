@@ -1,0 +1,157 @@
+html {
+	background-color: white; 
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font: 20px "Avenir Next", Times, Arial, sans-serif;
+	color: #707070;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font: 32px "Avenir Next", Times, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 600;
+	color: #9fcda5;
+}
+
+#hello-label { margin-top: 60px; margin-bottom: 40px; }
+
+span.ultra-light { font-weight: 100; }
+strong { font-weight: 600; }
+p { font-weight: 400; }
+
+
+.home-layout {
+	background-color: white;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Banner Image */
+.image-container {
+	width: 100%;
+	height: auto;
+}
+
+.banner-image {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+/* Profile */
+
+.profile-image {
+	height: 250px;
+	width: 250px;
+}
+
+.profile-container {
+	margin-top: 80px;
+	margin-bottom: 0px;
+	width: 600px;
+	background-color: white;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.profile-text-container {
+	align-items: left;
+}
+
+/* Work */
+
+.work-container {
+	width: 600px;
+	background-color: white;
+	margin-bottom: 0px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+
+.individual-project {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: white;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+}
+
+.individual-project img {
+	height: 50px;
+	width: 50px;
+}
+
+.individual-project-text {
+	padding-left: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Toolkit */
+
+.toolkit-container {
+	width: 600px;
+	background-color: white;
+	margin-bottom: 100px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+
+.individual-tool {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: white;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+
+}
+
+.individual-tool img {
+	height: 50px;
+	width: 50px;
+}
+
+.individual-tool-text {
+	padding-left: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Contact */
+
+.contact-container {
+	width: 600px;
+	background-color: white;
+	margin-bottom: 40px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-text {
+	font: 24px "Avenir Next", Times, Arial, sans-serif;
+}
